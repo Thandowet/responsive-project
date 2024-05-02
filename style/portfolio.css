@@ -1,9 +1,49 @@
+:root{
+    --button-color:blue;
+    --heading-font:"playfair display", serif;
+    --default-font:"Poppins", sans-serif;
+--primary-color:white;
+--secondary-color:black;
+--background-color:gray;
+}
 
-body {
-  background-color: aquamarine;
+h1,h2,h3,h4,h5,h6{
+    color:var(--secondary-color);
+    font-weight: bold;
+    font-family: var(--heading-font);
+
 }
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+h1{
+    font-size: 96px;
+  
+}
+.one {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 120px 20px;
+}
+.one p{
+    font-size: 36px;
+    font-weight: bold;
+   margin: 0;
+}
+.one h2{
+    font-family:var(--default-font);
+    font-weight: 24px;
+  font-style: normal;
+  color: var(--secondary-color);
+  line-height: 2;
+}
+.button-one{
+    border-radius: 4px;
+    background-color:var(--button-color);
+    color:var(--primary-color);
+    line-height: 20;
+    padding: 12px 15px;
+    margin-bottom: 10px;
 }
