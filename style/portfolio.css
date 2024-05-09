@@ -138,4 +138,9 @@ nav li.active a{
 .footer-email{
   text-decoration: none;
   color: black;
+  text-align: center;
+  font-size: 15px;
+}
+.footer-email:hover{
+  color: var(--primary-color);
 }
