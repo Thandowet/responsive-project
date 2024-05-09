@@ -111,4 +111,23 @@ border: 1px solid;
 .work-content p{
   font-size: 14px;
 }
-  
+  nav ul{margin: 0;
+    padding: 0;
+
+  }
+  nav li{
+list-style: none;
+    display: inline;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+
+  nav{
+    padding: 24px;
+  }
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  color: var(--button-color);
+}
