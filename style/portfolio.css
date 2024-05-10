@@ -142,7 +142,7 @@ nav li.active a{
   font-size: 15px;
 }
 .footer-email:hover{
-  color: var(--primary-color);
+  color: var(--button-color);
 }
 .social-media{
 padding: 20px;
