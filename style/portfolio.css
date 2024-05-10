@@ -144,3 +144,7 @@ nav li.active a{
 .footer-email:hover{
   color: var(--primary-color);
 }
+.social-media{
+padding: 20px;
+  margin: 20px;
+}
