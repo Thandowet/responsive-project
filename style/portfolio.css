@@ -148,3 +148,11 @@ nav li.active a{
 padding: 20px;
   margin: 20px;
 }
+.footer-button{
+  background-color: var(--button-color);
+  color: var(--secondary-color);
+  border-radius:8px ;
+  border: 1px solid;
+  text-decoration: none;
+  padding: 20px;
+}
